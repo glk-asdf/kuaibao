@@ -1,0 +1,159 @@
+@charset "UTF-8";
+ul, li, img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: "微软雅黑","sans-serif";
+  font-size: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 88.88889px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 104.16667px;
+  }
+}
+
+@media screen and (min-width: 385px) {
+  html {
+    font-size: 106.94444px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 115px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 133.33333px;
+  }
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  background-color: #F6F6F6;
+}
+
+.kbheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #BE816C;
+}
+
+.kbheader .hportrait {
+  width: 0.45rem;
+  height: 48px;
+  float: left;
+  text-align: center;
+  line-height: 48px;
+}
+
+.kbheader .hportrait img {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  margin: 11px auto 0;
+}
+
+.kbheader .kbmenu {
+  width: 2.66rem;
+  height: 100%;
+  background-color: #fcfcfc;
+  float: left;
+  line-height: 48px;
+  overflow: auto;
+  position: relative;
+}
+
+.kbheader .kbmenu ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4.32rem;
+}
+
+.kbheader .kbmenu ul li {
+  width: 0.54rem;
+  padding: 0 0 0 0.11rem;
+  overflow: hidden;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.kbheader .kbadd {
+  width: 0.49rem;
+  height: 100%;
+  float: left;
+  line-height: 48px;
+  text-align: center;
+}
+
+.kbheader .kbadd img {
+  margin: 13px auto 0;
+}
+
+.kbsearch {
+  margin: 58px auto 10px;
+  width: 3.30rem;
+  height: 25px;
+  border: 1px solid #F5F5F5;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-left: 28px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #c1c1c1;
+  position: relative;
+}
+
+.kbsearch img {
+  position: absolute;
+  left: 12px;
+  top: 7px;
+  width: 11px;
+  height: 11px;
+}
+
+.simplet {
+  width: 3.30rem;
+  height: 70px;
+  padding: 10px 0;
+  margin: auto;
+}
+
+/*# sourceMappingURL=map/index.css.map */
