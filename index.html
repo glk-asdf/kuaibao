@@ -74,41 +74,79 @@
 </head>
 <body ng-controller="kuaibaoCtrl">
 <!-- 头部 -->
-  <div class="kbheader">
+ <!--  <div class="kbheader">
  <div class="hportrait">
    <img src="image/434dc638051541.5754b48d70f1c.jpg">
  </div>
  <div class="kbmenu">
     <ul>
-      <li>快报</li>
-      <li>视频</li>
-      <li>直播</li>
-      <li>关注</li>
-      <li>娱乐</li>
-      <li>社会</li>
-      <li>美女</li>
-      <li>军事</li>
+      <li><a href="#/kuaibao">快报</a></li>
+      <li><a href="#/shipin">视频</a></li>
+      <li><a href="#/zhibo">直播</a></li>
+      <li><a href="#/guanzhu">关注</a></li>
+      <li><a href="#/yule">娱乐</a></li>
+      <li><a href="#/shehui">社会</a></li>
+      <li><a href="#/meinv">美女</a></li>
+      <li><a href="#/junshi">军事</a></li>
     </ul>
  </div>   
  <div class="kbadd">
    <img src="image/2016-06-10_113853.png" alt="">
  </div>
-  </div>
+  </div> -->
+  {{qwe}}
+  <kb-gheader></kb-gheader>
+  <div ng-controller="kbCtrl"></div>
+  <div ng-controller="spCtrl"></div>
+  <div ng-controller="zbCtrl"></div>
+  <div ng-controller="gzCtrl"></div>
+  <div ng-controller="ylCtrl"></div>
+  <div ng-controller="shCtrl"></div>
+  <div ng-controller="mnCtrl"></div>
+  <div ng-controller="jsCtrl"></div>
+  <ng-view></ng-view>
+  
   <!-- 快报 -->
-  <div class="kbsearch">
+  <!-- <div class="kbsearch">
   搜索
   <img src="image/2016-06-10_113853.png">
-  </div>
-  <div class="simplet"></div>
+  </div> -->
+  <!-- 新闻 类型1 -->
+ <!--  <a class="simplet">
+    <p>云州报警后警察40分钟才到 群众欲掀翻警车</p>
+    <img src="image/2016-06-10_175142.png" alt="">
+    <div class="infor">
+      <span>搜狐社会</span>
+      <span>1分钟前</span>
+      <span>290评</span>
+      <img src="image/2016-06-10_172909.png" alt="">
+    </div>
+  </a> -->
+  <!-- 新闻 类型2 -->
+ <!--  <a class="complext">
+    <p>执行死刑21年后，聂树斌案再审</p>
+    <ul>
+      <li><img src="image/0fd48135968889.574c0005c7f37.jpg" alt=""></li>
+      <li><img src="image/0fd48135968889.574c0005c7f37.jpg" alt=""></li>
+      <li><img src="image/0fd48135968889.574c0005c7f37.jpg" alt=""></li>
+    </ul>
+    <div class="infor">
+      <span>搜狐社会</span>
+      <span>1分钟前</span>
+      <span>290评</span>
+      <img src="image/2016-06-10_172909.png" alt="">
+    </div>
+  </a> -->
+
 </body>
 <!-- js -->
+  <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://cdn.bootcss.com/materialize/0.97.6/js/materialize.js"></script>
-  // <script type="text/javascript" href="js/jquery.js"></script>
-  // <script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.js"></script>
-  // <script src="http://cdn.bootcss.com/touchjs/0.2.14/touch.js"></script>
-  <script type="text/javascript" href="js/angular.js"></script>
-  <script type="text/javascript" href="js/angular-animate.js"></script>
-  <script type="text/javascript" href="js/angular-route.js"></script>
-  <script type="text/javascript" href="js/angular-touch.js"></script>
+  <script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.js"></script>
+  <script src="http://cdn.bootcss.com/touchjs/0.2.14/touch.js"></script>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/angular-animate.js"></script>
+  <script type="text/javascript" src="js/angular-route.js"></script>
+  <script type="text/javascript" src="js/angular-touch.js"></script>
 <script src="js/index.js"></script>
 </html>
